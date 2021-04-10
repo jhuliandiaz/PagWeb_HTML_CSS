@@ -21,14 +21,29 @@ header .Contenedor_Texto{
     flex-direction: column;
 }
 
+header .Contenedor_Texto h1{
+    font-weight: 700;
+    font-size: 60px;
+        
+}
+
+header .Contenedor_Texto p{
+    font-size: 25px;
+    font-weight: 400;
+    margin: 0 0 20px;
+}
+
+
 header{
     width: 100%;
     height: 650px;
     background-repeat: no-repeat;
-    background-image: linear-gradient(120deg, rgba(241, 147, 251, 0.699) 0%, rgba(85, 27, 35, 0.692) 100%), url("/img/WhatsApp\ Image\ 2021-04-09\ at\ 7.17.18\ PM\ \(2\).jpeg");
+    background-image: linear-gradient(120deg, rgba(241, 147, 251, 0.699) 0%, rgba(85, 27, 35, 0.692) 100%), url("/img/imagen_ppal.jpeg");
     /* background-size: cover; -- estira imagen a todo el ancho disponible */
     background-size: cover;
     position: relative;
+    /* Imagen de fondo se quede quita y no baje con el scroll */
+    background-attachment: fixed;
 }
 
 
@@ -41,3 +56,63 @@ header .Ondas{
     right: 0;
     bottom: 0;
 }
+
+
+header .Contenedor_Texto a{
+    padding: 12px 15px;
+    background-color: #a18cd1;
+    color: white;
+    font-size: 16px;
+    text-decoration: none;
+    border-radius: 8px;
+}
+
+.Titulo_section{
+    /* margin-bottom: 40px; */
+    width: 90%;
+    margin: 0 auto 40px auto;
+    display: flex;
+    justify-content: space-between;
+    /* ancho maximo de 1000px. Si se pasa de ese valor, lo corta */
+    max-width: 1000px;
+}
+
+
+.Titulo_section .ilustracion_imagen{
+    /* Jugar solo con el width con la imagen. Nunca colocarle heigth*/
+    width: 48%;
+}
+
+.Titulo_section .ilustracion_texto {
+    width: 40%;
+
+}
+
+.Titulo_section .ilustracion_texto .ilustracion_titulo{
+    /* Qué tan ancho quiero el relleno de la letra */
+    font-weight: 300;
+    margin: 0 0 35px 0;
+    /* Tamaño letra - fuente */
+    font-size: 35px;
+
+}
+
+
+.Titulo_section .ilustracion_texto .ilustracion_parrafo{
+    margin-bottom: 30px;
+    text-align: justify;
+}
+
+.Titulo_section .ilustracion_texto .ilustracion_boton{
+    /* quiero volver la etiqueta a sea un bloque, pero quiero que siga teniendo propiedades de enlace */
+    /* display: inline-block; */
+    background: linear-gradient(45deg, #ff9a9e 0%, #fad0c4 99%, #fad0c4 100%);
+    padding: 12px 15px;
+    text-decoration: none;
+    color: white;
+    border-radius: 8px;
+}
+
+
+
+
