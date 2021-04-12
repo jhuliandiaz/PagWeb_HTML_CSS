@@ -150,3 +150,86 @@ header .Contenedor_Texto a{
 }
 
 
+.cards_contenedor{
+    width: 100%;
+    padding: 80px 0;
+    /* background-color: green; */
+}
+
+.cards_contenedor .Title{
+    /* Qué tan ancho quiero el relleno de la letra */
+    display: flex;
+    font-weight: 300;
+    /* Tamaño letra - fuente */
+    font-size: 35px;
+    justify-content: center;
+    align-items: center;
+    width: 75%;
+    margin: 0 auto 30px auto;
+    
+}
+
+
+.cards_contenedor .cards{
+    display: flex;
+    width: 75%;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: auto;
+    text-align: center;
+}
+
+.cards_contenedor .cont_articulos{
+    /* padding: 30px 0 0; */
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+
+.Articulo{
+    margin: 0 10px;
+    width: 300px;
+    height: 300px;
+    text-align: center;
+    box-shadow: 0 0 3.5px 0 rgba(0,0,0,0.5);
+    transition: transform 0.6s;
+}
+
+
+
+
+
+.cards_contenedor .cont_articulos .Articulo i{
+    
+    margin: 30px 0 20px 0;
+    font-size: 50px;
+    color: #cc9199;
+}
+
+
+.cards_contenedor .cont_articulos .Articulo p{
+    font-size: 25px;
+    margin-bottom: 10px;
+    font-weight: 300;
+    margin-bottom: 30px;
+}
+
+.cards_contenedor .cont_articulos .Articulo a{
+    background: linear-gradient(45deg, #ff9a9e 0%, #fad0c4 99%, #fad0c4 100%);
+    padding: 12px 15px;
+    text-decoration: none;
+    color: white;
+    border-radius: 8px;
+}
+
+
+
+.Articulo:hover{
+    cursor: pointer;
+    transform: scale(1.03);
+    box-shadow: 0 0 7px 0 rgba(0,0,0,0.5);
+    transition: all 0.6s;
+    
+}
