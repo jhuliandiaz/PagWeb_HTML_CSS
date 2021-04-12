@@ -180,7 +180,7 @@ header .Contenedor_Texto a{
     text-align: center;
 }
 
-.cards_contenedor .cont_articulos{
+.cards_contenedor .cards .cont_articulos{
     /* padding: 30px 0 0; */
     display: flex;
     justify-content: space-evenly;
@@ -198,10 +198,7 @@ header .Contenedor_Texto a{
 }
 
 
-
-
-
-.cards_contenedor .cont_articulos .Articulo i{
+.cards_contenedor .cards .cont_articulos .Articulo i{
     
     margin: 30px 0 20px 0;
     font-size: 50px;
@@ -209,14 +206,14 @@ header .Contenedor_Texto a{
 }
 
 
-.cards_contenedor .cont_articulos .Articulo p{
+.cards_contenedor .cards .cont_articulos .Articulo p{
     font-size: 25px;
     margin-bottom: 10px;
     font-weight: 300;
     margin-bottom: 30px;
 }
 
-.cards_contenedor .cont_articulos .Articulo a{
+.cards_contenedor .cards .cont_articulos .Articulo a{
     background: linear-gradient(45deg, #ff9a9e 0%, #fad0c4 99%, #fad0c4 100%);
     padding: 12px 15px;
     text-decoration: none;
@@ -233,3 +230,48 @@ header .Contenedor_Texto a{
     transition: all 0.6s;
     
 }
+
+
+.section_images{
+    width: 100%;
+    background-color: #F2F2F2;
+}
+
+.section_images .image_contenedor{
+    background-color: #F2F2F2;
+    display: flexbox;    
+    width: 75%;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: auto;
+    text-align: center;
+    padding: 80px 0;
+}
+
+.section_images .image_contenedor .Images{
+    width: 300px;
+    height: 200px;
+    margin: 8px 10px;
+    box-shadow: 0 0 3.5px 0 rgba(0,0,0,0.5);
+    
+}
+
+
+.section_images .image_contenedor .Title_images{
+    /* Qué tan ancho quiero el relleno de la letra */
+    display: flex;
+    font-weight: 300;
+    /* Tamaño letra - fuente */
+    font-size: 35px;
+    justify-content: center;
+    align-items: center;
+    width: 75%;
+    margin: 0 auto 20px auto;
+    
+}
+
+.Images:hover{
+    cursor: pointer;
+}
+
