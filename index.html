@@ -17,7 +17,7 @@
         <div class="Contenedor_Texto">
             <h1>Bienvenido a Website</h1>
             <p>Creamos el mejor sitio web para ti</p>
-            <a href="#">Contáctame</a>
+            <a class="contactame" href="#contenedor_foot">Contáctame</a>
         </div>
         <div class="Ondas">
             <svg viewBox="0 0 500 150" preserveAspectRatio="none" style="height: 100%; width: 100%;"><path d="M-1.12,34.03 C149.99,150.00 279.34,-91.28 500.00,49.98 L500.00,150.00 L0.00,150.00 Z" style="stroke: none; fill: #FFF;"></path></svg>           
@@ -67,7 +67,7 @@
     </section>
 
 
-    <section class = section_images> 
+    <section class = "section_images"> 
         <div class="image_contenedor">
             <h2 class="Title_images">Our work</h2>
             <img class="Images" src="img/img1.jpeg" alt="">
@@ -79,5 +79,36 @@
         </div>
 
     </section>
+
+    <section class="section_info2">
+        <div class="contenedor_info2">
+            <div class="box_info2">
+                <h2 class="Title_box">Title of section</h2>
+                <p class="Parrafo_box">Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
+                Dolorum reprehenderit nostrum expedita quasi odio architecto laudantium sunt nemo dicta atque?</p>
+                <a class="botom_box">Learn More</a>
+            </div>
+            <img class="image_info2" src="/img/image_7.svg">
+        </div>
+    </section>
+
+    <section class="waves">
+        <div class="Ondas_foot">
+            <svg viewBox="0 0 500 150" preserveAspectRatio="none" style="height: 100%; width: 100%;"><path d="M-1.12,34.03 C149.99,150.00 279.34,-91.28 500.00,49.98 L500.00,150.00 L0.00,150.00 Z" style="stroke: none; fill:#f5576c;"></path></svg>
+        </div>
+    </section>
+
+    <footer>
+        <div class="contenedor_foot" id="contenedor_foot">
+            <h2 class="Title_foot">Contact us</h2>
+            <form class="formulario">
+                <input class="text" type="text" id="name" value="Nombre">
+                <input class="text" type="text" id="name" value="Email"><br>
+                <textarea class="textarea" name="mensaje" id="mensaje" cols="10" rows="10" >Mensaje</textarea><br>
+                <input class ="boton" type="submit" value="Enviar">
+                
+            </form>
+        </div>
+    </footer>
 </body>
 </html>

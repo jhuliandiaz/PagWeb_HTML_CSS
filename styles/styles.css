@@ -2,7 +2,10 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    scroll-behavior: smooth;
 }
+
+
 
 
 body{
@@ -14,7 +17,7 @@ body{
 header .Contenedor_Texto{
     width: 100%;
     height: 500px;
-    color: white; 
+    color: white;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -24,7 +27,7 @@ header .Contenedor_Texto{
 header .Contenedor_Texto h1{
     font-weight: 700;
     font-size: 60px;
-        
+
 }
 
 header .Contenedor_Texto p{
@@ -58,7 +61,7 @@ header .Ondas{
 }
 
 
-header .Contenedor_Texto a{
+header .Contenedor_Texto .contactame{
     padding: 12px 15px;
     background-color: #a18cd1;
     color: white;
@@ -66,6 +69,8 @@ header .Contenedor_Texto a{
     text-decoration: none;
     border-radius: 8px;
 }
+
+
 
 .Titulo_section{
     /* margin-bottom: 40px; */
@@ -99,7 +104,7 @@ header .Contenedor_Texto a{
 
 
 .Titulo_section .ilustracion_texto .ilustracion_parrafo{
-   
+
     margin-bottom: 30px;
     text-align: justify;
 }
@@ -129,7 +134,7 @@ header .Contenedor_Texto a{
     /* background-color: yellow; */
     /* align-items:center;  */
     /* margin: 0 174.5px; */
-    padding: 80px 0;   
+    padding: 80px 0;
     margin: auto;
 }
 
@@ -166,7 +171,7 @@ header .Contenedor_Texto a{
     align-items: center;
     width: 75%;
     margin: 0 auto 30px auto;
-    
+
 }
 
 
@@ -199,7 +204,7 @@ header .Contenedor_Texto a{
 
 
 .cards_contenedor .cards .cont_articulos .Articulo i{
-    
+
     margin: 30px 0 20px 0;
     font-size: 50px;
     color: #cc9199;
@@ -228,7 +233,7 @@ header .Contenedor_Texto a{
     transform: scale(1.03);
     box-shadow: 0 0 7px 0 rgba(0,0,0,0.5);
     transition: all 0.6s;
-    
+
 }
 
 
@@ -239,7 +244,7 @@ header .Contenedor_Texto a{
 
 .section_images .image_contenedor{
     background-color: #F2F2F2;
-    display: flexbox;    
+    display: flexbox;
     width: 75%;
     justify-content: center;
     align-items: center;
@@ -254,7 +259,7 @@ header .Contenedor_Texto a{
     height: 200px;
     margin: 8px 10px;
     box-shadow: 0 0 3.5px 0 rgba(0,0,0,0.5);
-    
+
 }
 
 
@@ -268,10 +273,172 @@ header .Contenedor_Texto a{
     align-items: center;
     width: 75%;
     margin: 0 auto 20px auto;
-    
+
 }
 
 .Images:hover{
     cursor: pointer;
 }
+
+
+.section_info2{
+    width: 90%;
+    padding: 80px 0;
+    margin: auto;
+}
+
+.section_info2 .contenedor_info2{
+    display: flex;
+    margin: auto;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+
+
+
+.section_info2 .contenedor_info2 .image_info2{
+  width: 463px;
+  height: 361px;
+}
+
+
+.section_info2 .contenedor_info2 .box_info2{
+    width: 385px;
+    height: 361px;
+    /* margin: 0 5px; */
+    text-align: left;
+  }
+
+
+
+.section_info2 .contenedor_info2 .box_info2 .Title_box{
+    font-weight: 300;
+    /* Tamaño letra - fuente */
+    font-size: 35px;
+    justify-content:left;
+    /* align-items:; */
+    /* margin: 30px 0; */
+    text-align: left;
+  }
+
+
+  .section_info2 .contenedor_info2 .box_info2 .Parrafo_box{
+      margin: 30px 0;
+  }
+
+
+
+  .section_info2 .contenedor_info2 .box_info2 .botom_box{
+    background: linear-gradient(45deg, #ff9a9e 0%, #fad0c4 99%, #fad0c4 100%);
+    padding: 12px 15px;
+    text-decoration: none;
+    color: white;
+    border-radius: 8px;
+}
+
+.waves .Ondas_foot{
+    height: 150px;
+    width: 100%;
+    /* overflow: hidden; Lo que esté fuera del div NO LO MUESTRA */
+    overflow: hidden;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    /* background-color: blue; */
+}
+
+
+.waves{
+    width: 100%;
+    position: relative;
+    padding: 80px;
+}
+
+footer{
+    padding: 80px;
+    /* margin: 0; */
+    /* width: 100%; */
+    /* position: relative; */
+    background-color: #f5576c;
+}
+
+footer .contenedor_foot{
+    /* width: 100%; */
+    /* height: 570px; */
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    background-color: #f5576c;
+    justify-content: space-evenly;
+    flex-direction: column;
+    /* background-size: cover; */
+    margin: auto;
+    
+    /* max-width: 1000px; */
+
+}
+
+footer .contenedor_foot .Title_foot{
+
+    display: flex;
+    font-weight: 300;
+    /* Tamaño letra - fuente */
+    font-size: 35px;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin: 0 auto 20px auto;
+    color: white;
+}
+
+
+
+
+footer .contenedor_foot .formulario .text{
+    width: 392px;
+    height: 57px;
+    background-color: #f5576c;
+    padding: 20px 10px;
+    color: white;
+    margin: 0 10px 20px;
+   border: 1px solid white;
+   outline: none;
+}
+
+footer .contenedor_foot .formulario .textarea{
+
+    width: 809px;
+    height: 192px;
+    background-color: #f5576c;
+    padding: 20px 10px;
+    color: white;
+    border: 1px solid white;
+    margin: 0 10px 20px;
+      /* display: flex; */
+      outline: none;
+
+}
+
+
+footer .contenedor_foot .formulario .boton{
+    width: 120px;
+    height: 45px;
+    background-color: #f5576c;
+    /* padding: 20px 10px; */
+    color: white;
+    border: 1px solid white;
+    margin: 0 10px 30px;
+    outline: none;
+    cursor: pointer;
+
+      /* display: flex; */
+
+}
+
+
+
+.formulario::placeholder{
+    padding-left:10px;
+    }
 
